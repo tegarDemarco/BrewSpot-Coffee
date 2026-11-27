@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title','Dashboard Driver')
 @section('page-title','Dashboard')
-@section('page-sub','Halo {{ auth()->user()->name }}, selamat bertugas!')
+@section('page-sub', 'Halo ' . auth()->user()->name . ', selamat bertugas!')
 @section('content')
 @php $driver = auth()->user(); @endphp
 <div class="page-header">

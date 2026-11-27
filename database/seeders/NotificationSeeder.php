@@ -45,3 +45,4 @@ class NotificationSeeder extends Seeder {
         }
     }
 }
+
